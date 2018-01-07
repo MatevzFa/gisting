@@ -10,7 +10,7 @@ go get github.com/MatevzFa/gisting
 ## Usage
 
 ```
-$ gisting --token $(cat ~/Documents/.gittoken) create -d "Some random gist" --private main.go
+$ gisting --token $(cat ~/Documents/.gittoken) create -d "Some random gist" main.go
 https://gist.github.com/dc68f61ef51f6a77fd4febb86ada885a
 ```
 

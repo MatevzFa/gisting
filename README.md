@@ -15,8 +15,8 @@ https://gist.github.com/dc68f61ef51f6a77fd4febb86ada885a
 ```
 
 ```
-$ gisting help
-usage: gisting [<flags>] <command> [<args> ...]
+$ gisting --help-long
+usage: main [<flags>] <command> [<args> ...]
 
 Flags:
       --help         Show context-sensitive help (also try --help-long and
@@ -27,9 +27,19 @@ Commands:
   help [<command>...]
     Show help.
 
+
   download <id>
     Download a gist.
 
+
   create [<flags>] <files>...
     Create a gist.
+
+    -d, --description=DESCRIPTION  Description of the gist
+        --private                  If creating a private gist
+
+  update [<flags>] <id> <files>...
+    Update a gist.
+
+    -d, --description=DESCRIPTION  Description of the gist
 ```
